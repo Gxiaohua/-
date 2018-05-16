@@ -1,0 +1,43 @@
+bady,h1{
+    margin: 0;
+}
+body,html{
+    font-family:'微软雅黑';
+    /* background: linear-gradient(to right,#74a1cf,#a39ce2); */
+
+}
+.wrap{
+    width: 900px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fl{
+    float: left;
+}
+.right{
+    float: right;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+p{
+    padding: 0;
+}
+input{
+    padding: 0;
+    border: none;
+    outline: none;
+}

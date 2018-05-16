@@ -1,0 +1,22 @@
+
+.Singerwrap{
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0 0 2px #ddd;
+    background: rgba(255,255,255,.1);
+}
+.SingerName{
+    margin: 0px;
+    margin:15px ;
+    float: none;
+    width: 95%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px #ddd dashed;
+}
+.SingerName span{
+    margin-left: 20px;
+}
+.Auxiliary{
+    color: gray;
+}

@@ -1,0 +1,45 @@
+singlistsort{padding-top:10px;}
+.songTop{position: relative;box-shadow: 0 0 3px #aaa;margin-bottom: 12px;}
+.songTop img{float: left;width: auto;height: 220px;}
+.songTopright{overflow: hidden;height: 220px;padding: 30px 50px;box-sizing: border-box;position: relative;}
+.songTopright a{display: block;position: relative;z-index: 2;}
+.songTopright::before{content: '';width: 90%;height: 90%;border: 3px #ddd solid;position: absolute;top: 5%;left: 5%;z-index: 1;background: rgba(255,255,255,.1);}
+.songTspecialname{font-size: 20px;color: black;margin-bottom: 20px;}
+.songTintro{font-size: 15px;color:gray;}
+.songList{margin-top: 20px;padding: 10px;box-shadow: 0 0 2px #ddd;background: rgba(255,255,255,.1);}
+.songList li{float: none;width: 100%;margin: 0;height: 50px;line-height: 50px;border-bottom: 1px #ddd dashed;}
+.songTit{font-size: 35px;color: black;}
+/* .songList li a{color: #fff;} */
+.songTopimg{
+    width: 50px;
+    height: 50px;
+}
+.songradio{
+    position: relative;
+}
+.radio{
+    width:400px;
+    height:200px;
+    background-color:rgba(255,255,255,.5);
+    position: absolute;
+    top: 236px;
+    left: 380px;
+    z-index: 10;
+    border-radius: 50px;
+    text-align: center;
+}
+.radioname{
+    height: 68px;
+    line-height: 68px;
+    border-bottom: 1px dotted grey;
+    font-size: 14px;
+}
+.radioinfo{
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.changeurl{
+    height: 30px;
+    display: block;
+}
